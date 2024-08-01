@@ -397,6 +397,17 @@ mark,
   height: auto;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  .img-fluid {
+      width: 50%;
+      height: auto;
+  }
+  .about-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -8901,6 +8912,7 @@ h1, h2, h3, h4, h5,
   background: #1a1a1a;
   overflow: visible; }
 
+
 .progress-bar {
   background: #ffbd39;
   -webkit-box-shadow: none;
@@ -8949,7 +8961,8 @@ h1, h2, h3, h4, h5,
 @media (min-width: 992px) {
   .margin-top {
     margin-top: -70px;
-    padding-top: 10em !important; } }
+    padding-top: 10em !important;
+     } }
 
 .project {
   width: 100%;
@@ -9085,7 +9098,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 3em 1em; } }
+      padding: 6em 1em; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
