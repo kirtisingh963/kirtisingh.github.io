@@ -399,7 +399,7 @@ mark,
 }
 @media (max-width: 768px) {
   .img-fluid {
-      width: 50%;
+      width: 70%;
       height: auto;
   }
   .about-img {
@@ -4354,6 +4354,7 @@ input[type="button"].btn-block {
   font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
+
 
 .progress-bar {
   display: -webkit-box;
@@ -9097,8 +9098,10 @@ textarea.form-control {
   padding: 7em 0;
   position: relative; }
   @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 1em; } }
+    #about-section {
+      padding: 6em 1em;
+    }
+    }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
